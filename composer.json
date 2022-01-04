@@ -1,0 +1,28 @@
+{
+    "name": "wefabric/simplexml-to-array",
+    "description": "Simplexml to array",
+    "license": "MIT",
+    "keywords": [
+        "wefabric",
+        "simplexml",
+        "array"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wefabric\\SimplexmlToArray\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Nauta",
+            "email": "kevin@wefabric.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-simplexml": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "6.1.x-dev"
+    }
+}
